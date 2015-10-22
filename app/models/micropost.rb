@@ -1,2 +1,3 @@
-class Micropost < ActiveRecord::Base
+class Micropost < AcrtiveRecord::Base
+  validates :user_id, presence: true
 end
